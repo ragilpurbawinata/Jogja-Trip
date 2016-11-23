@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.trip.jogja.jogjatrip.TourPackage"
+    tools:showIn="@layout/activity_tour_package">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:id="@+id/tGk"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tourgk"/>
+
+            <TextView
+                android:id="@+id/img_name1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:text="@string/gktour" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:id="@+id/tYk"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/touryk"/>
+
+            <TextView
+                android:id="@+id/img_name2"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:text="@string/citytour" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:id="@+id/tMr"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tourmr"/>
+
+            <TextView
+                android:id="@+id/img_name3"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:text="Merapi Lava Tour" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

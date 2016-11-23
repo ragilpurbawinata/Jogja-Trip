@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.trip.jogja.jogjatrip.TourMerapi"
+    tools:showIn="@layout/activity_tour_merapi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tour Destination"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                android:alpha="0.7"
+                android:id="@+id/textView7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/merapitourlist"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price : $185"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                android:alpha="0.7"
+                android:id="@+id/textView9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="Photos Gallery"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:id="@+id/textView6" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="#ff8400"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView1"
+                        android:src="@drawable/mrp1"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/mrp2"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView3"
+                        android:src="@drawable/mrp3"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView4"
+                        android:src="@drawable/mrp4"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView5"
+                        android:src="@drawable/mrp5"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView6"
+                        android:src="@drawable/mrp6"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView7"
+                        android:src="@drawable/mrp7"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView8"
+                        android:src="@drawable/mrp8"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView9"
+                        android:src="@drawable/mrp9"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="275dp"
+                        android:layout_height="275dp"
+                        android:layout_margin="3dp"
+                        android:id="@+id/imageView10"
+                        android:src="@drawable/mrp10"
+                        android:scaleType="centerCrop"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="book now"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="#f5da08"
+            android:id="@+id/btmrp" />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
